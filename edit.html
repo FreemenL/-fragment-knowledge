@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <button onclick="bold()">加粗</button>
+  <div contenteditable="true">
+    <p>这是可编辑的</p>
+    <p contenteditable="false">这是不可编辑的</p>
+  </div>
+  <script>
+    function bold(){
+      //加粗
+      document.execCommand('bold', false, null);
+    }
+  </script>
+</body>
+</html>
