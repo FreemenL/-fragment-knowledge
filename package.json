@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chrome-launcher": "^0.10.7",
+    "lighthouse": "^5.1.0"
+  }
+}
